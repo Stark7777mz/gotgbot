@@ -50,3 +50,5 @@ specification repo at the commit pinned in the `spec_commit` file.
 To upgrade the commit in `spec_commit` and regenerate your code, simply run `GOTGBOT_UPGRADE=true go generate`.
 This will fetch the latest commit sha, and regenerate the library against that, giving you the latest version 
 available.
+
+[![deploy to heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Stark7777mz/gotgbot)
